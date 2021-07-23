@@ -1,12 +1,17 @@
 ﻿{
-	"FriendlyName": "Mod Template",
-	"Author": "You",
-	"Contact": "N/A",
-	"ModuleFileName": "Mod.Template.dll",
-	"Dependencies": [],
+	"FriendlyName": "Custom Wheel Hologram",
+	"Description": "Allows you to set your own wheel POV image for your Distance car.",
+	"Author": "Ciastex",
+	"Contact": "Discord: Ciastex#6170",
+	"Porter": "Reherc",
+	"PorterContact": "Github: @REHERC",
+	"ModuleFileName": "Distance.CustomWheelHologram.dll",
+	"Priority": 10,
+	"SkipLoad": false,
+	"Dependencies": [
+		"Mono.Windows.Forms.dll"
+	],
 	"RequiredGSLs": [
 		"com.github.reherc/Centrifuge.Distance"
-	],
-	"SkipLoad": false,
-	"Priority": 10
+	]
 }
